@@ -1,0 +1,34 @@
+{
+  "name": "browser-group-multiple-tabs",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Save all tabs, or the tabs to the left or right, into a new tab group from the context menu in Chrome, Edge and Firefox.",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt -b chrome --mv3",
+    "dev:chrome": "wxt -b chrome --mv3",
+    "dev:edge": "wxt -b edge --mv3",
+    "dev:firefox": "wxt -b firefox --mv3",
+    "build": "wxt build -b chrome --mv3",
+    "build:chrome": "wxt build -b chrome --mv3",
+    "build:edge": "wxt build -b edge --mv3",
+    "build:firefox": "wxt build -b firefox --mv3",
+    "build:all": "pnpm run clean && pnpm run build:chrome && pnpm run build:edge && pnpm run build:firefox",
+    "zip": "wxt zip -b chrome --mv3",
+    "zip:chrome": "wxt zip -b chrome --mv3",
+    "zip:edge": "wxt zip -b edge --mv3",
+    "zip:firefox": "wxt zip -b firefox --mv3",
+    "zip:all": "pnpm run clean && pnpm run zip:chrome && pnpm run zip:edge && pnpm run zip:firefox",
+    "clean": "rimraf .output",
+    "compile": "tsc --noEmit",
+    "test": "vitest run",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "rimraf": "^6.1.3",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11",
+    "wxt": "^0.20.26"
+  },
+  "packageManager": "pnpm@11.25.0"
+}

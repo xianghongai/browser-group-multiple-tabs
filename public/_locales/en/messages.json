@@ -1,0 +1,23 @@
+{
+  "appName": {
+    "message": "Add Multiple Tabs To Group"
+  },
+  "appDesc": {
+    "message": "Save all tabs, or the tabs to the left or right, into a new tab group from the context menu"
+  },
+  "saveTabsToGroup": {
+    "message": "Save Tabs to Group"
+  },
+  "allTabs": {
+    "message": "All Tabs"
+  },
+  "tabsToTheLeft": {
+    "message": "Tabs to the Left"
+  },
+  "tabsToTheRight": {
+    "message": "Tabs to the Right"
+  },
+  "defaultGroupTitle": {
+    "message": "Unsaved Group"
+  }
+}

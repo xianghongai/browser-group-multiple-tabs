@@ -1,0 +1,23 @@
+{
+  "appName": {
+    "message": "添加多个标签页到分组"
+  },
+  "appDesc": {
+    "message": "通过右键菜单把“所有/左侧/右侧”标签页保存到新的标签页分组"
+  },
+  "saveTabsToGroup": {
+    "message": "保存标签页到分组"
+  },
+  "allTabs": {
+    "message": "所有标签页"
+  },
+  "tabsToTheLeft": {
+    "message": "左侧标签页"
+  },
+  "tabsToTheRight": {
+    "message": "右侧标签页"
+  },
+  "defaultGroupTitle": {
+    "message": "未保存的分组"
+  }
+}
