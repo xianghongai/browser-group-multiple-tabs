@@ -28,12 +28,14 @@ describe('getTabsToGroup', () => {
   });
 
   it('skips tabs that already belong to a group', () => {
-    expect(getTabsToGroup('saveAllTabs', 1, [
-      { id: 21, index: 0, groupId: 5 },
-      { id: 22, index: 1, groupId: -1 },
-      { id: 23, index: 2, groupId: 5 },
-      { id: 24, index: 3, groupId: -1 },
-    ])).toEqual([22, 24]);
+    expect(
+      getTabsToGroup('saveAllTabs', 1, [
+        { id: 21, index: 0, groupId: 5 },
+        { id: 22, index: 1, groupId: -1 },
+        { id: 23, index: 2, groupId: 5 },
+        { id: 24, index: 3, groupId: -1 },
+      ])
+    ).toEqual([22, 24]);
   });
 
   it('returns an empty array for unknown actions', () => {
@@ -41,10 +43,12 @@ describe('getTabsToGroup', () => {
   });
 
   it('skips candidate tabs without numeric ids', () => {
-    expect(getTabsToGroup('saveAllTabs', 1, [
-      { id: 31, index: 0, groupId: -1 },
-      { index: 1, groupId: -1 },
-      { id: 32, index: 2, groupId: -1 },
-    ])).toEqual([31, 32]);
+    expect(
+      getTabsToGroup('saveAllTabs', 1, [
+        { id: 31, index: 0, groupId: -1 },
+        { index: 1, groupId: -1 },
+        { id: 32, index: 2, groupId: -1 },
+      ])
+    ).toEqual([31, 32]);
   });
 });

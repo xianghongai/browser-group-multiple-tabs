@@ -1,11 +1,6 @@
 import { browser, type Browser } from 'wxt/browser';
 import { defineBackground } from 'wxt/utils/define-background';
-import {
-  SAVE_ALL_TABS_ACTION,
-  SAVE_LEFT_TABS_ACTION,
-  SAVE_RIGHT_TABS_ACTION,
-  getTabsToGroup,
-} from '../tabs/groupTabs';
+import { SAVE_ALL_TABS_ACTION, SAVE_LEFT_TABS_ACTION, SAVE_RIGHT_TABS_ACTION, getTabsToGroup } from '../tabs/groupTabs';
 
 const SAVE_TABS_MENU_ID = 'saveTabsToGroup';
 
@@ -18,9 +13,10 @@ const SAVE_TABS_MENU_ITEMS = [
 
 // Firefox also lets extensions extend the tab strip menu; Chrome and Edge
 // reject the 'tab' context, so it is only added to the Firefox build.
-const MENU_CONTEXTS = (
-  import.meta.env.BROWSER === 'firefox' ? ['all', 'tab'] : ['all']
-) as [Browser.contextMenus.ContextType, ...Browser.contextMenus.ContextType[]];
+const MENU_CONTEXTS = (import.meta.env.BROWSER === 'firefox' ? ['all', 'tab'] : ['all']) as [
+  Browser.contextMenus.ContextType,
+  ...Browser.contextMenus.ContextType[],
+];
 
 async function getCurrentTab() {
   const [tab] = await browser.tabs.query({
