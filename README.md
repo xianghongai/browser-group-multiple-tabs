@@ -1,4 +1,4 @@
-# Add Multiple Tabs To Group
+# Group Multiple Tabs
 
 Save all tabs, or the tabs to the left or right, into a new tab group from the context menu in Chrome, Edge and Firefox.
 
@@ -28,7 +28,7 @@ pnpm zip:all        # .output/*.zip for Chrome, Edge and Firefox
 
 ---
 
-# 添加多个标签页到分组
+# Group Multiple Tabs
 
 在 Chrome、Edge 和 Firefox 中通过右键菜单把“所有/左侧/右侧”标签页保存到新的标签页分组。
 

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-  <title>Add Multiple Tabs To Group</title>
+  <title>Group Multiple Tabs</title>
   <!-- A stack of tabs gathered into one group, with a plus cut out of the front tab. -->
   <rect width="128" height="128" rx="28" fill="#2e6be6"/>
   <g>
