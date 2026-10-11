@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>Add Multiple Tabs To Group</title>
+  <!-- A stack of tabs gathered into one group, with a plus cut out of the front tab. -->
+  <rect width="128" height="128" rx="28" fill="#2e6be6"/>
+  <g>
+    <path d="M36 39V29a6 6 0 0 1 6-6h18a6 6 0 0 1 6 6v10z" fill="#90b2f3"/>
+    <rect x="36" y="33" width="72" height="52" rx="9" fill="#90b2f3"/>
+    <path d="M28 49V39a6 6 0 0 1 6-6h18a6 6 0 0 1 6 6v10z" fill="#c8d8fa"/>
+    <rect x="28" y="43" width="72" height="52" rx="9" fill="#c8d8fa"/>
+    <path d="M20 59V49a6 6 0 0 1 6-6h18a6 6 0 0 1 6 6v10z" fill="#fff"/>
+    <rect x="20" y="53" width="72" height="52" rx="9" fill="#fff"/>
+  </g>
+  <path d="M56 66v26M43 79h26" fill="none" stroke="#2e6be6" stroke-width="9" stroke-linecap="round"/>
+</svg>
