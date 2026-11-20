@@ -1,14 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-  <title>Group Multiple Tabs</title>
-  <!-- A stack of tabs gathered into one group, with a plus cut out of the front tab. -->
-  <rect width="128" height="128" rx="28" fill="#2e6be6"/>
-  <g>
-    <path d="M36 39V29a6 6 0 0 1 6-6h18a6 6 0 0 1 6 6v10z" fill="#90b2f3"/>
-    <rect x="36" y="33" width="72" height="52" rx="9" fill="#90b2f3"/>
-    <path d="M28 49V39a6 6 0 0 1 6-6h18a6 6 0 0 1 6 6v10z" fill="#c8d8fa"/>
-    <rect x="28" y="43" width="72" height="52" rx="9" fill="#c8d8fa"/>
-    <path d="M20 59V49a6 6 0 0 1 6-6h18a6 6 0 0 1 6 6v10z" fill="#fff"/>
-    <rect x="20" y="53" width="72" height="52" rx="9" fill="#fff"/>
-  </g>
-  <path d="M56 66v26M43 79h26" fill="none" stroke="#2e6be6" stroke-width="9" stroke-linecap="round"/>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2038_36)">
+<path d="M100 0H28C12.536 0 0 12.536 0 28V100C0 115.464 12.536 128 28 128H100C115.464 128 128 115.464 128 100V28C128 12.536 115.464 0 100 0Z" fill="#2E6BE6"/>
+<path d="M36 39V29C36 27.4087 36.6321 25.8826 37.7574 24.7574C38.8826 23.6321 40.4087 23 42 23H60C61.5913 23 63.1174 23.6321 64.2426 24.7574C65.3679 25.8826 66 27.4087 66 29V39H36Z" fill="#90B2F3"/>
+<path d="M99 33H45C40.0294 33 36 37.0294 36 42V76C36 80.9706 40.0294 85 45 85H99C103.971 85 108 80.9706 108 76V42C108 37.0294 103.971 33 99 33Z" fill="#90B2F3"/>
+<path d="M28 49V39C28 37.4087 28.6321 35.8826 29.7574 34.7574C30.8826 33.6321 32.4087 33 34 33H52C53.5913 33 55.1174 33.6321 56.2426 34.7574C57.3679 35.8826 58 37.4087 58 39V49H28Z" fill="#C8D8FA"/>
+<path d="M91 43H37C32.0294 43 28 47.0294 28 52V86C28 90.9706 32.0294 95 37 95H91C95.9706 95 100 90.9706 100 86V52C100 47.0294 95.9706 43 91 43Z" fill="#C8D8FA"/>
+<path d="M20 59V49C20 47.4087 20.6321 45.8826 21.7574 44.7574C22.8826 43.6321 24.4087 43 26 43H44C45.5913 43 47.1174 43.6321 48.2426 44.7574C49.3679 45.8826 50 47.4087 50 49V59H20Z" fill="white"/>
+<path d="M83 53H29C24.0294 53 20 57.0294 20 62V96C20 100.971 24.0294 105 29 105H83C87.9706 105 92 100.971 92 96V62C92 57.0294 87.9706 53 83 53Z" fill="white"/>
+<path d="M56 66V92M43 79H69" stroke-width="9" stroke-linecap="round" stroke="#2E6BE6"/>
+</g>
+<defs>
+<clipPath id="clip0_2038_36">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
 </svg>
